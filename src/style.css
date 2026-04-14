@@ -1,6 +1,3 @@
-/* =======================
-        GLOBAL RESET
-======================= */
 * {
     margin: 0;
     padding: 0;
@@ -13,16 +10,14 @@ body {
     color: #111;
 }
 
-/* =======================
-        CV PAGE
-======================= */
+
 .cv-container {
     max-width: 900px;
     margin: auto;
     padding: 20px;
 }
 
-/* PROFILE */
+
 .profile {
     display: flex;
     gap: 20px;
@@ -36,7 +31,7 @@ body {
     border-radius: 10px;
 }
 
-/* SECTION */
+
 section {
     margin-top: 20px;
 }
@@ -56,9 +51,7 @@ section {
     width: 80%;
 }
 
-/* =======================
-        MENU
-======================= */
+
 .menu {
     position: sticky;
     top: 0;
@@ -113,11 +106,6 @@ section {
     flex: 1;
 }
 
-/* =======================
-        CONTACT PAGE
-======================= */
-
-/* HERO */
 .contact-hero {
     text-align: center;
     padding: 60px 20px 30px;
@@ -141,7 +129,7 @@ section {
     padding: 20px;
 }
 
-/* FORM CARD */
+
 .contact-card {
     flex: 2;
     background: white;
@@ -150,7 +138,7 @@ section {
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-/* INPUT */
+
 .contact-card input,
 .contact-card textarea {
     width: 100%;
@@ -171,7 +159,7 @@ section {
     box-shadow: 0 0 0 3px rgba(79,70,229,0.15);
 }
 
-/* BUTTON */
+
 .contact-card button {
     width: 100%;
     padding: 12px;
@@ -193,7 +181,7 @@ section {
     transform: translateY(-2px);
 }
 
-/* INFO CARD */
+
 .contact-info {
     flex: 1;
     background: white;
