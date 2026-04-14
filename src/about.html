@@ -3,89 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="about.css">
+    <title>About Me | Tình Trần</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAV -->
-<header class="topbar">
-    <div class="brand">Portfolio</div>
+<nav class="menu">
+    <div class="logo">TÌNH TRẦN</div>
 
-    <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
+    <div class="menu-links">
+        <a href="index.html">CV</a>
+        <a class="active" href="about.html">About Me</a>
         <a href="contact.html">Contact</a>
-    </nav>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-    <div class="hero-content">
-        <h1>About Me</h1>
-
     </div>
-</section>
+</nav>
 
-<!-- CONTENT -->
-<section class="container">
+<div class="cv-container">
 
-    <!-- PROFILE -->
-    <div class="card profile-card">
-        <div class="avatar"></div>
+    <header class="profile">
+        <div class="profile-text">
+            <h1>Trần Văn Tình</h1>
+            <p class="subtitle">Backend Developer</p>
+        </div>
+    </header>
 
-        <h2>Tình Trần</h2>
-        <p class="role">Sinh viên / Lập trình viên web</p>
+    <hr>
 
-        <p class="desc">
-            Xin chào, mình là một sinh viên ngành Công nghệ thông tin.
-            Mình bắt đầu học lập trình web từ khi còn khá sớm và hiện đang tập trung
-            vào việc phát triển kỹ năng backend với Java Spring Boot và frontend cơ bản.
-        </p>
+    <div class="about-content-grid">
 
-        <p class="desc">
-            Mình không phải là người giỏi nhất, nhưng mình luôn cố gắng học từng ngày
-            và làm nhiều dự án nhỏ để hiểu cách một hệ thống web hoạt động thực tế.
-        </p>
+        <!-- LEFT CONTENT -->
+        <div class="main-info">
 
-        <button>Download CV</button>
-    </div>
+            <section class="card">
+                <h2>Giới thiệu bản thân</h2>
+                <p>
+                    Xin chào, mình là Tình. Hiện tại mình là sinh viên năm cuối ngành Công nghệ thông tin.
+                </p>
+                <p>
+                    Mình đang sống tại Sài Gòn. Trong thời gian rảnh, mình thường nghe nhạc, xem phim
+                    và học thêm lập trình để cải thiện kỹ năng.
+                </p>
+            </section>
 
-    <!-- INFO -->
-    <div class="card info-card">
+            <hr>
 
-        <h3>Thông tin cá nhân</h3>
-        <p>Việt Nam</p>
-        <p>Sinh viên Công nghệ thông tin</p>
-        <p>Hướng phát triển: Backend Developer</p>
+            <section class="card">
+                <h2>Kinh nghiệm và dự án</h2>
 
-        <h3>Kỹ năng hiện tại</h3>
+                <p>
+                    Trong quá trình học và rèn luyện, mình đã thực hiện một số dự án cá nhân như sau:
+                </p>
 
-        <div class="skill">
-            <span>HTML / CSS</span>
-            <div class="bar"><div style="width: 85%"></div></div>
+                <div class="timeline">
+
+                    <div class="item">
+                        <div class="content">
+                            <h3>Student Management System</h3>
+                            <p>
+                                Dự án quản lý sinh viên sử dụng Java Swing và MySQL.
+                                Tập trung vào CRUD, xử lý nghiệp vụ và tối ưu truy vấn cơ sở dữ liệu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                Xây dựng website cá nhân bằng HTML, CSS và JavaScript
+                                để giới thiệu bản thân và các dự án đã làm.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+<hr>
+        <!-- RIGHT CONTENT -->
+        <div class="side-info">
+
+            <section class="card">
+                <h3>Kỹ năng cứng</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Spring Boot</li>
+                    <li>MySQL</li>
+                    <li>VueJS</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h3>Kỹ năng mềm</h3>
+                <ul>
+                    <li>Giải quyết vấn đề</li>
+                    <li>Tự học</li>
+                    <li>Làm việc nhóm</li>
+                    <li>Tư duy logic</li>
+                </ul>
+            </section>
+<hr>
+            <section class="card">
+                <h3>Mục tiêu nghề nghiệp</h3>
+                <p>
+                    Mục tiêu của mình là trở thành Fullstack Developer, có thể xây dựng hệ thống hoàn chỉnh
+                    từ frontend, backend đến cơ sở dữ liệu và triển khai thực tế.
+                </p>
+            </section>
+
         </div>
 
-        <div class="skill">
-            <span>Java Spring Boot</span>
-            <div class="bar"><div style="width: 70%"></div></div>
-        </div>
-
-        <div class="skill">
-            <span>VueJS</span>
-            <div class="bar"><div style="width: 65%"></div></div>
-        </div>
-
-        <h3>Mục tiêu</h3>
-        <p>
-            Mục tiêu của mình là trở thành một Fullstack Developer có thể tự xây dựng
-            được một hệ thống web hoàn chỉnh từ frontend đến backend và database.
-        </p>
-
     </div>
 
-</section>
+</div>
 
 </body>
 </html>
